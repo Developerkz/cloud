@@ -1,0 +1,218 @@
+*{
+	font-family: 'Roboto',sans-serif;
+}
+.bg-login{
+	background: url(../../files/backend/bg.jpg);
+	height: 100%;
+	padding:120px 0;
+	background-size: cover;
+}
+.admin-form{
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+	border-radius: 4px;
+	padding:50px;
+}
+.admin-form h1{
+	color:#fff;
+	padding-bottom:5px;
+}
+.admin-form input{
+	width: 90%;
+	height: 40px;
+	margin:8px auto;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	padding-left:15px;
+	font-size: 15px;
+}
+.admin-form button{
+	width: 150px;
+	height: 40px;
+	border:none;
+	background: #0062FF;
+	margin-top:30px;
+	border-radius: 4px;
+	color:#fff;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 16px;
+}
+.admin-form button:hover{
+	background: #0058E5;
+}
+.errors{
+	padding:5px 0;
+	margin:0;
+	color:#B21111;
+}
+
+.sidebar{
+	background: #0F0F0F;
+	height: 100%;
+}
+.header-logo{
+	padding:15px;
+	background:#121212;
+	text-align: center;
+}
+.header-logo a{
+	color:#fff;
+	font-size: 2em;
+	margin-left:-15px;
+}
+.header-logo i{
+	color:#fff;
+	font-size: 1.5em;
+}
+.left-menu a{
+	border-left:4px solid transparent;
+	padding-left:15%;
+	padding-top:20px;
+	padding-bottom:20px;
+	display: inline-block;
+	display: block;
+	width: 100%;
+	color:#8B8B8B;
+}
+.left-menu a:hover{
+	border-left:4px solid #0062FF;
+	color:#fff;
+	background: #121212;
+}
+.left-menu a.active{
+	border-left:4px solid #0062FF;
+	color:#fff;
+	background: #121212;
+	box-shadow: 0 0 5px #000 inset;
+}
+
+.header{
+	position: fixed;
+	box-shadow:0 0 5px #121212;
+	width: 100%;
+	background: #fff;
+}
+.header-user{
+	float:right;
+	display: inline-block;
+	padding:25px;
+}
+.header-user {
+	float:right;
+	display: inline-block;
+
+}
+.header-user a{
+	margin-left: 20px;
+	color:#0062FF;
+	border-bottom:1px dashed #0062FF;
+}
+.header-user a:hover{
+	border-bottom: none;
+}
+.header-user a.logout{
+	margin-left:50px;
+	margin-right:30px;
+	color:#D30700;
+	border-bottom: none;
+}
+.content{
+	overflow: auto;
+	height: 90%;
+	padding:30px;
+}
+.top-container{
+	height: 10%;
+}
+
+.list-title h2{
+	display: inline-block;
+}
+.list-title a{
+	float:right;
+	background: #0062FF;
+	padding:5px 12px;
+	color:#fff;
+	font-weight:bold;
+}
+.list-title a:hover{
+	background: #005CF0;
+}
+.file-item{
+	margin:20px 0;
+	border:1px solid #D0D0D0;
+	padding:20px;
+}
+
+.file-item div.file-icon i{
+	font-size: 2.6em;
+	color:#979797;
+}
+.file-name a{
+	margin-top:8px;
+	display: inline-block;
+	padding:0 7px;
+	border-left:1px solid #ccc;
+	color:#0056E1;
+	font-size: 15px;
+}
+.file-name a:hover{
+	color:#003891;
+}
+
+.file-name a.delete-file{
+	color:#A60000;
+}
+.file-name a.delete-file:hover{
+	color:#940000;
+}
+.file-name a:first-child{
+	border-left:none;
+	padding-left:0px;
+}
+.file-item i{
+	font-size: 1.6em;
+	color:#121212;
+}
+.file-item span{
+	display: block;
+	margin-top:10px;
+}
+
+
+
+
+.forms input{
+	width: 90%;
+	max-width: 300px;
+	height: 40px;
+	padding-left:15px;
+	margin:10px 0;
+	border:1px solid #BCBCBC;
+	border-radius: 4px;
+}
+.forms textarea{
+	width: 90%;
+	max-width: 300px;
+	height: 150px;
+	padding-left:15px;
+	padding-top: 8px;
+	margin:10px 0;
+	border:1px solid #BCBCBC;
+	border-radius: 4px;
+}
+.forms button{
+	width: 150px;
+	height: 40px;
+	background: #0062FF;
+	border:none;
+	border-radius: 4px;
+	font-size:17px;
+	font-weight: bold;
+	color:#fff;
+	cursor: pointer;
+}

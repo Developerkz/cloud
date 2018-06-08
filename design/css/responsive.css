@@ -1,0 +1,94 @@
+.clear{
+	clear:both;
+}
+.wrapper{
+	width: 80%;
+	max-width: 1000px;
+	margin:0 auto;
+}
+.cntr{
+	text-align: center;
+}
+.inline{
+	display: inline-block;
+}
+.op-left{
+	float:left;
+}
+.op-right{
+	float:right;
+}
+.container{
+	width: 100%;
+}
+.row{
+	display: block;
+	clear:both;
+	width: 100%;
+}
+.pd30{
+	padding: 30px;
+}
+.w100{
+	width: 100%;
+}
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12{
+	width: 100%;
+	float:none;
+}
+
+@media screen and (min-width: 600px){
+	.column-tablet-1,
+	.column-tablet-2,
+	.column-tablet-3,
+	.column-tablet-4,
+	.column-tablet-5,
+	.column-tablet-6,
+	.column-tablet-7,
+	.column-tablet-8,
+	.column-tablet-9,
+	.column-tablet-10,
+	.column-tablet-11,
+	.column-tablet-12{
+		width: 50%;
+		float:left;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.column-1{width: 8.3%;float:left;}
+	.column-2{width: 16.6%;float:left;}
+	.column-3{width: 25%;float:left;}
+	.column-4{width: 33.3%;float:left;}
+	.column-5{width: 41.6%;float:left;}
+	.column-6{width: 50%;float:left;}
+	.column-7{width: 58.3%;float:left;}
+	.column-8{width: 66.6%;float:left;}
+	.column-9{width: 75%;float:left;}
+	.column-10{width: 83.3%;float:left;}
+	.column-11{width: 91.6%;float:left;}
+	.column-12{width: 50%;float:left;}
+}
+
+
+
+
+.tca{
+		text-align: center;
+}
+@media screen and (min-width: 600px){
+	.tca{
+		text-align: none;
+	}
+}

@@ -1,0 +1,1 @@
+<script type="text/javascript" src="<?php uri(); ?>design/js/jquery.js"></script>
